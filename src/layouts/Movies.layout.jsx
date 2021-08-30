@@ -10,6 +10,7 @@ import { MovieContext } from "../context/movie.context";
 
 const MovieLayout = (props) => {
   const { id } = useParams();
+  // eslint-disable-next-line
   const { movie, setMovie } = useContext(MovieContext);
 
   useEffect(() => {

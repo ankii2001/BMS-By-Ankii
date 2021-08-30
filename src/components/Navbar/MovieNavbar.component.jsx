@@ -1,14 +1,14 @@
 import React, { useContext } from "react"
 import { Link } from "react-router-dom";
 
-import {HiChevronRight, HiMenu,HiOutlineShare} from "react-icons/hi"
+import {HiMenu,HiOutlineShare} from "react-icons/hi"
 import {BsSearch, BsCaretDownFill} from "react-icons/bs"
 
 // Context
 import { MovieContext } from "../../context/movie.context";
 
 const NavSm = () => {
-
+  // eslint-disable-next-line
   const { movie } = useContext(MovieContext);
 
     return(

@@ -12,7 +12,9 @@ import { MovieContext } from "../context/movie.context";
 const Plays = () => {
 
     const {id} = useParams();
+    // eslint-disable-next-line
     const { movie } = useContext(MovieContext);
+    // eslint-disable-next-line
     const [recommended, setRecommended] = useState([]);
 
     useEffect(() => {

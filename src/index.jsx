@@ -9,12 +9,10 @@ import App from "./App";
 import MovieProvider from "./context/movie.context";
 
 ReactDOM.render(
-  <React.StrictMode>
     <BrowserRouter>
       <MovieProvider>
         <App />
       </MovieProvider>
-    </BrowserRouter>
-  </React.StrictMode>,
+    </BrowserRouter>,
   document.getElementById("root")
 );
